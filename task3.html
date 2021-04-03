@@ -1,0 +1,62 @@
+﻿<html>
+<head>
+<title>Javascript</title>
+</head>
+<body>
+<label>Enter 1st no</label>
+<input type="number" name="" id="nm">
+<br><br>
+<label>Enter 2nd no</label>
+<input type="number" name="" id="nm1">
+<br><br>
+<button type="button" onclick="add()">To find greatest</button>
+<button type="button" onclick="sub()">No is even or odd</button>
+<button type="button" onclick="mod()">No. is prime or not</button>
+
+<script type="text/javascript">
+
+function add()
+{
+var x=parseInt(document.getElementById('nm').value);
+var y=parseInt(document.getElementById('nm1').value);
+if(x>y)
+{
+document.write("Ist no. is greater than 2nd no.");
+}else if(x==y)
+{
+document.write("Ist no. is equal to 2nd no.");
+}
+else
+{
+document.write("Ist no. is less than to 2nd no.");
+}
+}
+
+function sub()
+{
+var x=parseInt(document.getElementById('nm').value);
+var y=parseInt(document.getElementById('nm1').value);
+if((x%2)==0)
+{
+document.write("number is even");
+}else
+{
+document.write("number is odd");
+}
+}
+function mod()
+{
+var x=parseInt(document.getElementById('nm').value);
+var y=parseInt(document.getElementById('nm1').value);
+if((x%y)==0)
+{
+document.write("x is  prime no.");
+}else
+{
+document.write("x is not a prime no.");
+}
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+
+.ab
+{
+height:100px;
+width:100px;
+background:red;
+}
+.ac
+{
+height:100px;
+width:100px;
+background:linear-gradient(to left,blue,green);
+}
+.ad
+{
+height:100px;
+width:100px;
+background:linear-gradient(to right,pink,grey);
+}
+.ae
+{
+height:100px;
+width:100px;
+background:linear-gradient(to left top,cyan,maroon);
+}
+.af
+{
+height:100px;
+width:100px;
+background:linear-gradient(to right top,pink,red);
+}
+.ag
+{
+
+height:100px;
+width:100px;
+background:radial-gradient(yellow,white,transparent);
+}
+.ah
+{
+border:1px solid red;
+height:150px;
+width:200px;
+background:url('Screenshot (6).png');
+background-size:50% 50%;
+}
+.ai
+{
+height:100px;
+width:200px;
+background:url('Screenshot (6).png');
+background-size:50% 100px;
+}
+/*.aj
+{
+border:1px solid red;
+height:100px;
+width:250px;
+background:url('Screenshot (6).png');
+background-size:14.2% 50%;
+}*/
+.aj
+{
+border:1px solid red;
+height:100px;
+width:250px;
+background:url('Screenshot (6).png');
+background-size:35.5px 50px;
+}
+
+
